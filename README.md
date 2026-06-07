@@ -27,3 +27,9 @@ A single page React application for an e-commerce admin portal. The project incl
 - `/products` — Product management page with search and edit
 - `/new-product` — Form to add a new product
 - `/products/:id` — Product details and inline update
+
+## Git Workflow
+
+- Developed new features on separate branches.
+- Used branch `feature/git-management` to document and merge changes back into `main`.
+- Kept `main` clean and merged feature work after review.
