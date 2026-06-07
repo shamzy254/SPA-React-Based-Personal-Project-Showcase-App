@@ -28,6 +28,14 @@ A single page React application for an e-commerce admin portal. The project incl
 - `/new-product` — Form to add a new product
 - `/products/:id` — Product details and inline update
 
+## GitHub Pages Deployment
+
+The app is configured for GitHub Pages at:
+
+- `https://shamzy254.github.io/SPA-React-Based-Personal-Project-Showcase-App/`
+
+Use `npm run deploy` to build and publish the app automatically.
+
 ## Git Workflow
 
 - Developed new features on separate branches.
