@@ -37,5 +37,9 @@ export async function deleteProduct(id) {
     method: 'DELETE'
   });
   if (!response.ok) throw new Error('Could not delete product');
-  return response.json();
+  try {
+    return await response.json();
+  } catch (_) {
+    return {};
+  }
 }
